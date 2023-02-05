@@ -10,6 +10,7 @@ Requires [CMake](https://cmake.org) version 3.23 or newer!
 
 ```sh
 git clone https://github.com/blueburncz/GMExtensionBase.git
+cd GMExtensionsBase
 mkdir build
 cd build
 cmake ..
