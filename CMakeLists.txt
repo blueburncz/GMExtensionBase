@@ -10,6 +10,10 @@ set(SOURCES
 
 add_library(${PROJECT_NAME} SHARED ${SOURCES})
 
+if(WIN32)
+    add_definitions(-DOS_Windows)
+endif()
+
 target_include_directories(${PROJECT_NAME} PRIVATE include/)
 
 add_custom_command(

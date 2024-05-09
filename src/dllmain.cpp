@@ -18,9 +18,10 @@ YYEXPORT void YYExtensionInitialise(const struct YYRunnerInterface* _pFunctions,
 	DebugConsoleOutput("YYExtensionInitialise CONFIGURED \n ");
 }
 
-YYEXPORT double SimpleDesktopExample_Test(double val)
+YYEXPORT void SimpleDesktopExample_Test(RValue& Result, CInstance* selfinst, CInstance* otherinst, int argc, RValue* arg)
 {
-	return val;
+	Result.kind = VALUE_REAL;
+	Result.val = YYGetReal(arg, 0);
 }
 
 YYEXPORT void SimpleDesktopExample_ReturnString(RValue& Result, CInstance* selfinst, CInstance* otherinst, int argc, RValue* arg)

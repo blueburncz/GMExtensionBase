@@ -143,4 +143,3 @@ class CInstance;
 typedef RValue& (*PFUNC_YYGMLScript_Internal)( CInstance* pSelf, CInstance* pOther, RValue& _result, int _count,  RValue** _args  );
 
 #endif
-
