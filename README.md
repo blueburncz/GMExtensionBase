@@ -8,7 +8,7 @@ the Apache 2.0 License.
 
 ## Building
 
-Requires [CMake](https://cmake.org) version 3.23 or newer!
+> Requires [CMake](https://cmake.org) version 3.23 or newer!
 
 ```sh
 git clone https://github.com/blueburncz/GMExtensionBase.git
@@ -21,3 +21,15 @@ cmake --build . --config=Release
 
 The last command also copies the dynamic library into the extensions folder,
 so you don't have to do that by hand.
+
+## Injecting functions and JSDoc into extension.yy file
+
+> Requires [Python 3](https://www.python.org/downloads/)!
+
+```sh
+python.exe -m venv env
+./env/scripts/activate
+pip install -r requirements.txt
+python.exe ./inject-docs.py
+deactivate
+```

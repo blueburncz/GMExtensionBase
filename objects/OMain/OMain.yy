@@ -9,8 +9,8 @@
   "name":"OMain",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"GMExtensionBase",
+    "path":"GMExtensionBase.yyp",
   },
   "parentObjectId":null,
   "persistent":false,

@@ -17,8 +17,8 @@
   ],
   "name":"Room1",
   "parent":{
-    "name":"Rooms",
-    "path":"folders/Rooms.yy",
+    "name":"GMExtensionBase",
+    "path":"GMExtensionBase.yyp",
   },
   "parentRoom":null,
   "physicsSettings":{
